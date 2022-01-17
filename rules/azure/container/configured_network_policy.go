@@ -20,13 +20,13 @@ var CheckConfiguredNetworkPolicy = rules.Register(
 		Links: []string{
 			"https://kubernetes.io/docs/concepts/services-networking/network-policies",
 		},
-		Terraform:   &rules.EngineMetadata{
-            GoodExamples:        terraformConfiguredNetworkPolicyGoodExamples,
-            BadExamples:         terraformConfiguredNetworkPolicyBadExamples,
-            Links:               terraformConfiguredNetworkPolicyLinks,
-            RemediationMarkdown: terraformConfiguredNetworkPolicyRemediationMarkdown,
-        },
-        Severity: severity.High,
+		Terraform: &rules.EngineMetadata{
+			GoodExamples:        terraformConfiguredNetworkPolicyGoodExamples,
+			BadExamples:         terraformConfiguredNetworkPolicyBadExamples,
+			Links:               terraformConfiguredNetworkPolicyLinks,
+			RemediationMarkdown: terraformConfiguredNetworkPolicyRemediationMarkdown,
+		},
+		Severity: severity.High,
 	},
 	func(s *state.State) (results rules.Results) {
 		for _, cluster := range s.Azure.Container.KubernetesClusters {

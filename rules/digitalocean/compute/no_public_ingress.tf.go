@@ -1,7 +1,7 @@
 package compute
 
 var terraformNoPublicIngressGoodExamples = []string{
-        `
+	`
  resource "digitalocean_firewall" "good_example" {
  	name = "only-22-80-and-443"
    
@@ -17,7 +17,7 @@ var terraformNoPublicIngressGoodExamples = []string{
 }
 
 var terraformNoPublicIngressBadExamples = []string{
-        `
+	`
  resource "digitalocean_firewall" "bad_example" {
  	name = "only-22-80-and-443"
    
@@ -33,7 +33,7 @@ var terraformNoPublicIngressBadExamples = []string{
 }
 
 var terraformNoPublicIngressLinks = []string{
-        `https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs/resources/firewall`,
+	`https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs/resources/firewall`,
 }
 
 var terraformNoPublicIngressRemediationMarkdown = ``

@@ -1,7 +1,7 @@
 package sql
 
 var terraformNoPublicAccessGoodExamples = []string{
-        `
+	`
  resource "google_sql_database_instance" "postgres" {
  	name             = "postgres-instance-a"
  	database_version = "POSTGRES_11"
@@ -22,7 +22,7 @@ var terraformNoPublicAccessGoodExamples = []string{
 }
 
 var terraformNoPublicAccessBadExamples = []string{
-        `
+	`
  resource "google_sql_database_instance" "postgres" {
  	name             = "postgres-instance-a"
  	database_version = "POSTGRES_11"
@@ -48,7 +48,7 @@ var terraformNoPublicAccessBadExamples = []string{
 }
 
 var terraformNoPublicAccessLinks = []string{
-        `https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database_instance`,
+	`https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database_instance`,
 }
 
 var terraformNoPublicAccessRemediationMarkdown = ``

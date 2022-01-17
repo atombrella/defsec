@@ -1,7 +1,7 @@
 package storage
 
 var terraformNoPublicAccessGoodExamples = []string{
-        `
+	`
  resource "azure_storage_container" "good_example" {
  	name                  = "terraform-container-storage"
  	container_access_type = "blob"
@@ -14,7 +14,7 @@ var terraformNoPublicAccessGoodExamples = []string{
 }
 
 var terraformNoPublicAccessBadExamples = []string{
-        `
+	`
  resource "azure_storage_container" "bad_example" {
  	name                  = "terraform-container-storage"
  	container_access_type = "blob"
@@ -27,7 +27,7 @@ var terraformNoPublicAccessBadExamples = []string{
 }
 
 var terraformNoPublicAccessLinks = []string{
-        `https://www.terraform.io/docs/providers/azure/r/storage_container.html#properties`,
+	`https://www.terraform.io/docs/providers/azure/r/storage_container.html#properties`,
 }
 
 var terraformNoPublicAccessRemediationMarkdown = ``

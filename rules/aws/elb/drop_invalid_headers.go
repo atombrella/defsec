@@ -23,13 +23,13 @@ By setting drop_invalid_header_fields to true, anything that doe not conform to 
 		Links: []string{
 			"https://docs.aws.amazon.com/elasticloadbalancing/latest/application/application-load-balancers.html",
 		},
-		Terraform:   &rules.EngineMetadata{
-            GoodExamples:        terraformDropInvalidHeadersGoodExamples,
-            BadExamples:         terraformDropInvalidHeadersBadExamples,
-            Links:               terraformDropInvalidHeadersLinks,
-            RemediationMarkdown: terraformDropInvalidHeadersRemediationMarkdown,
-        },
-        Severity: severity.High,
+		Terraform: &rules.EngineMetadata{
+			GoodExamples:        terraformDropInvalidHeadersGoodExamples,
+			BadExamples:         terraformDropInvalidHeadersBadExamples,
+			Links:               terraformDropInvalidHeadersLinks,
+			RemediationMarkdown: terraformDropInvalidHeadersRemediationMarkdown,
+		},
+		Severity: severity.High,
 	},
 	func(s *state.State) (results rules.Results) {
 		for _, lb := range s.AWS.ELB.LoadBalancers {

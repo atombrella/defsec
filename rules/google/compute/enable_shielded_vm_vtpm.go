@@ -20,13 +20,13 @@ var CheckEnableShieldedVMVTPM = rules.Register(
 		Links: []string{
 			"https://cloud.google.com/blog/products/identity-security/virtual-trusted-platform-module-for-shielded-vms-security-in-plaintext",
 		},
-		Terraform:   &rules.EngineMetadata{
-            GoodExamples:        terraformEnableShieldedVmVtpmGoodExamples,
-            BadExamples:         terraformEnableShieldedVmVtpmBadExamples,
-            Links:               terraformEnableShieldedVmVtpmLinks,
-            RemediationMarkdown: terraformEnableShieldedVmVtpmRemediationMarkdown,
-        },
-        Severity: severity.Medium,
+		Terraform: &rules.EngineMetadata{
+			GoodExamples:        terraformEnableShieldedVmVtpmGoodExamples,
+			BadExamples:         terraformEnableShieldedVmVtpmBadExamples,
+			Links:               terraformEnableShieldedVmVtpmLinks,
+			RemediationMarkdown: terraformEnableShieldedVmVtpmRemediationMarkdown,
+		},
+		Severity: severity.Medium,
 	},
 	func(s *state.State) (results rules.Results) {
 		for _, instance := range s.Google.Compute.Instances {

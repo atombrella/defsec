@@ -1,7 +1,7 @@
 package network
 
 var terraformDisableRdpFromInternetGoodExamples = []string{
-        `
+	`
  resource "azurerm_network_security_rule" "good_example" {
       name                        = "good_example_security_rule"
       direction                   = "Inbound"
@@ -29,7 +29,7 @@ var terraformDisableRdpFromInternetGoodExamples = []string{
 }
 
 var terraformDisableRdpFromInternetBadExamples = []string{
-        `
+	`
  resource "azurerm_network_security_rule" "bad_example" {
       name                        = "bad_example_security_rule"
       direction                   = "Inbound"
@@ -57,7 +57,7 @@ var terraformDisableRdpFromInternetBadExamples = []string{
 }
 
 var terraformDisableRdpFromInternetLinks = []string{
-        `https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/data-sources/network_security_group#security_rule`,`https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/network_security_rule#source_port_ranges`,
+	`https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/data-sources/network_security_group#security_rule`, `https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/network_security_rule#source_port_ranges`,
 }
 
 var terraformDisableRdpFromInternetRemediationMarkdown = ``

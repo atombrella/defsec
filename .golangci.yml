@@ -1,4 +1,3 @@
-
 linters:
   disable-all: true
   enable:
@@ -20,21 +19,10 @@ linters:
     - errorlint
     - exportloopref
     - goimports
-    - gocritic
-
 linters-settings: 
   cyclop:
     max-complexity: 15
   gocritic:
     disabled-checks:
       - singleCaseSwitch
-
-issues:
-  exclude-rules:
-    - path: internal/app/tfsec/funcs/
-      linters:
-        - cyclop
-        - errorlint
-        - gocritic
-        - gosec
 

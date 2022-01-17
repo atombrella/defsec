@@ -1,7 +1,7 @@
 package lambda
 
 var terraformEnableTracingGoodExamples = []string{
-        `
+	`
  resource "aws_iam_role" "iam_for_lambda" {
    name = "iam_for_lambda"
  
@@ -48,7 +48,7 @@ var terraformEnableTracingGoodExamples = []string{
 }
 
 var terraformEnableTracingBadExamples = []string{
-        `
+	`
  resource "aws_iam_role" "iam_for_lambda" {
    name = "iam_for_lambda"
  
@@ -95,7 +95,7 @@ var terraformEnableTracingBadExamples = []string{
 }
 
 var terraformEnableTracingLinks = []string{
-        `https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lambda_function#mode`,
+	`https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lambda_function#mode`,
 }
 
 var terraformEnableTracingRemediationMarkdown = ``
