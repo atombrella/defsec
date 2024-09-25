@@ -3421,6 +3421,7 @@ var allowedActionsForResourceWildcardsMap = map[string]struct{}{
 	"mediaconvert:ListJobTemplates": {},
 	"mediaconvert:ListPresets": {},
 	"mediaconvert:ListQueues": {},
+	"mediaconvert:ListVersions": {},
 	"mediaconvert:PutPolicy": {},
 	"mediaimport:CreateDatabaseBinarySnapshot": {},
 	"medialive:BatchDelete": {},
