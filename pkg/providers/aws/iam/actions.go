@@ -3833,8 +3833,6 @@ var allowedActionsForResourceWildcardsMap = map[string]struct{}{
 	"purchase-orders:GetConsoleActionSetEnforced": {},
 	"purchase-orders:ListPurchaseOrders": {},
 	"purchase-orders:UpdateConsoleActionSetEnforced": {},
-	"q:CreateAssignment": {},
-	"q:DeleteAssignment": {},
 	"q:GetConversation": {},
 	"q:GetIdentityMetadata": {},
 	"q:GetTroubleshootingResults": {},
