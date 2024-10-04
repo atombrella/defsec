@@ -531,6 +531,7 @@ var allowedActionsForResourceWildcardsMap = map[string]struct{}{
 	"bedrock:GetFoundationModelAvailability": {},
 	"bedrock:GetModelInvocationLoggingConfiguration": {},
 	"bedrock:GetUseCaseForModelAccess": {},
+	"bedrock:InvokeBuilder": {},
 	"bedrock:ListAgents": {},
 	"bedrock:ListCustomModels": {},
 	"bedrock:ListEvaluationJobs": {},
