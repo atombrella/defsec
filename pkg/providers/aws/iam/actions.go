@@ -4748,6 +4748,8 @@ var allowedActionsForResourceWildcardsMap = map[string]struct{}{
 	"sns:SetSubscriptionAttributes": {},
 	"sns:Unsubscribe": {},
 	"sns:VerifySMSSandboxPhoneNumber": {},
+	"social-messaging:AssociateWhatsAppBusinessAccount": {},
+	"social-messaging:ListLinkedWhatsAppBusinessAccounts": {},
 	"sqlworkbench:BatchDeleteFolder": {},
 	"sqlworkbench:CreateAccount": {},
 	"sqlworkbench:CreateFolder": {},
