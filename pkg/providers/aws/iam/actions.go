@@ -3385,6 +3385,7 @@ var allowedActionsForResourceWildcardsMap = map[string]struct{}{
 	"mediaconnect:DeleteFlow": {},
 	"mediaconnect:DescribeFlow": {},
 	"mediaconnect:DescribeFlowSourceMetadata": {},
+	"mediaconnect:DescribeFlowSourceThumbnail": {},
 	"mediaconnect:DescribeOffering": {},
 	"mediaconnect:DescribeReservation": {},
 	"mediaconnect:DiscoverGatewayPollEndpoint": {},
