@@ -3892,6 +3892,7 @@ var allowedActionsForResourceWildcardsMap = map[string]struct{}{
 	"quicksight:ScopeDownPolicy": {},
 	"quicksight:SearchDirectoryGroups": {},
 	"quicksight:SetGroupMapping": {},
+	"quicksight:StartDashboardSnapshotJobSchedule": {},
 	"quicksight:Subscribe": {},
 	"quicksight:Unsubscribe": {},
 	"quicksight:UpdateAccountSettings": {},
