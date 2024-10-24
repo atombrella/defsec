@@ -4794,6 +4794,7 @@ var allowedActionsForResourceWildcardsMap = map[string]struct{}{
 	"sqs:ListQueues": {},
 	"ssm-contacts:ListContacts": {},
 	"ssm-contacts:ListEngagements": {},
+	"ssm-contacts:ListPreviewRotationShifts": {},
 	"ssm-contacts:ListRotations": {},
 	"ssm-guiconnect:CancelConnection": {},
 	"ssm-guiconnect:GetConnection": {},
