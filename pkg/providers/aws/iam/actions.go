@@ -554,6 +554,7 @@ var allowedActionsForResourceWildcardsMap = map[string]struct{}{
 	"bedrock:PutModelInvocationLoggingConfiguration": {},
 	"bedrock:PutUseCaseForModelAccess": {},
 	"bedrock:RetrieveAndGenerate": {},
+	"bedrock:ValidateFlowDefinition": {},
 	"billing:GetBillingData": {},
 	"billing:GetBillingDetails": {},
 	"billing:GetBillingNotifications": {},
